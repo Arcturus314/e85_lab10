@@ -1,9 +1,16 @@
-{C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench.sv} {1 {vlog -work work -sv -stats=none {C:\Users\Kaveh Pezeshki\Documents\E85_Lab_10\testbench.sv}
+{C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controllersm.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controllersm.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module testbench
+-- Compiling module controllersm
 
 Top level modules:
-	testbench
+	controllersm
+
+} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controller.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controller.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controller
+
+Top level modules:
+	controller
 
 } {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/instrdecode.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/instrdecode.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016

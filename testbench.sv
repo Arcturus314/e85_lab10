@@ -27,7 +27,7 @@ module testbench();
 
     initial
         begin
-            $readmemb("testvectors.tv", testvectors);
+            $readmemb("testvectors2.tv", testvectors);
             vectornum = 0; errors = 0;
             $display("resetting....");
             reset = 1; #22; reset = 0;
@@ -39,12 +39,12 @@ module testbench();
             {instr, aluflags, outputexp} = testvectors[vectornum];
             $display("entering vector num %d...%b", vectornum, {instr, aluflags, outputexp}); 
             lastreset <= 0;
-            if (vectornum==4 | vectornum==9 | vectornum==14 | vectornum==19 | vectornum==25)
-            begin
-                lastreset <= 1;
-                reset = 1; #22; reset = 0;
-                vectornum = vectornum + 1;
-            end
+            //if (vectornum==4 | vectornum==9 | vectornum==14 | vectornum==19 | vectornum==25)
+            //begin
+            //    lastreset <= 1;
+            //    reset = 1; #22; reset = 0;
+            //    vectornum = vectornum + 1;
+            //end
         end
     
     always @(negedge clk)
