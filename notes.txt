@@ -1,0 +1,33 @@
+Components
+
+Decoder
+	PC logic
+	Main FSM (done)- p423 table
+	ALU decoder- p446 verilog
+	Instr decoder- p416 table
+
+Conditional Logic (done)
+	condition check- p447 table (done)
+
+
+
+Instruction types
+
+Memory
+	LDR (done)
+	STR
+
+Data
+	Reg
+	Imm
+
+Branch
+
+Need cases for:
+	condition checking
+		ALU flags
+
+
+	funct s
+	
+	destination register is pc
