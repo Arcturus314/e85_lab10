@@ -10,7 +10,7 @@ cModel Technology
 dC:/Users/Kaveh Pezeshki/Documents/E85_Lab_5
 valudecode
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1511932592
+Z1 !s110 1512028414
 !i10b 1
 !s100 5I08o;7bz3hBXdXSU@4zi2
 I6D_OhZg@1dA:PF3BRG@KM0
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1511932592.000000
+Z5 !s108 1512028414.000000
 !s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/aludecode.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/aludecode.sv|
 !i113 1
@@ -82,7 +82,7 @@ R6
 R7
 vcontroller
 R0
-Z14 !s110 1511932591
+R1
 !i10b 1
 !s100 jPbfSM3aR_:>ZmOaj]bCS3
 I6:XmI8<kb6SEDoK_o3W<:1
@@ -98,7 +98,7 @@ R4
 r1
 !s85 0
 31
-Z15 !s108 1511932591.000000
+R5
 !s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controller.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controller.sv|
 !i113 1
@@ -202,7 +202,7 @@ R6
 R7
 vpclogic
 R0
-R14
+R1
 !i10b 1
 !s100 ^NjKo`BDz958XFGDl4?0E0
 I1UaF5CV92beVmef0SC0TA1
@@ -218,7 +218,7 @@ R4
 r1
 !s85 0
 31
-R15
+R5
 !s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/pclogic.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/pclogic.sv|
 !i113 1
@@ -229,22 +229,46 @@ R0
 R1
 !i10b 1
 !s100 CRm^dK`THA2A3dLmM3VPM2
-IFWTGC9a1aLKDeaYRFHYh^3
+IaWQ7g1lLj``PC;JM0AY0X3
 R2
 !s105 testbench_sv_unit
 S1
 R3
-w1511932581
-8C:\Users\Kaveh Pezeshki\Documents\E85_Lab_10\testbench.sv
-FC:\Users\Kaveh Pezeshki\Documents\E85_Lab_10\testbench.sv
+w1511932610
+8C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench.sv
+FC:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench.sv
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:\Users\Kaveh Pezeshki\Documents\E85_Lab_10\testbench.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Kaveh Pezeshki\Documents\E85_Lab_10\testbench.sv|
+R5
+!s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench.sv|
+!i113 1
+R6
+R7
+vtestbench2
+R0
+!s110 1512028415
+!i10b 1
+!s100 P;C6f?JaI@EUbf@h6;`0J1
+I7FgJ^jI9_UdR[nQ6SciUR3
+R2
+!s105 testbench2_sv_unit
+S1
+R3
+w1512028333
+8C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench2.sv
+FC:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1512028415.000000
+!s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench2.sv|
 !i113 1
 R6
 R7

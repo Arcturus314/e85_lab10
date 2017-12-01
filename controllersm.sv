@@ -58,6 +58,7 @@ module controllersm(input logic  clk,
         else if (state==memadr | state==executei | state==branchs)   AluSrcB = 2'b01;
         else                                                        AluSrcB = 2'b00; 
         if (state==fetch | state==decode | state==branchs)           ResultSrc = 2'b10;
+        else if (state==memwb)                                      ResultSrc = 2'b01;
         else                                                        ResultSrc = 2'b00;
     end
 endmodule       
