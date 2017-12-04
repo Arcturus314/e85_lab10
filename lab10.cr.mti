@@ -1,16 +1,9 @@
-{C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench.sv}
+{C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controllersm.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controllersm.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module testbench
+-- Compiling module controllersm
 
 Top level modules:
-	testbench
-
-} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/instrdecode.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/instrdecode.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module instrdecode
-
-Top level modules:
-	instrdecode
+	controllersm
 
 } {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controller.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controller.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -19,12 +12,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	controller
 
-} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controllersm.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controllersm.sv}
+} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/instrdecode.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/instrdecode.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module controllersm
+-- Compiling module instrdecode
 
 Top level modules:
-	controllersm
+	instrdecode
+
+} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench
+
+Top level modules:
+	testbench
 
 } {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/pclogic.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/pclogic.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -33,19 +33,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	pclogic
 
-} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench2.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench2.sv}
+} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/aludecode.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/aludecode.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module testbench2
+-- Compiling module aludecode
 
 Top level modules:
-	testbench2
+	aludecode
 
-} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/decoder.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/decoder.sv}
+} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condcheck.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condcheck.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module decoder
+-- Compiling module condcheck
 
 Top level modules:
-	decoder
+	condcheck
 
 } {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condlogic.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condlogic.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -55,18 +55,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	condlogic
 
-} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condcheck.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condcheck.sv}
+} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/decoder.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/decoder.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module condcheck
+-- Compiling module decoder
 
 Top level modules:
-	condcheck
+	decoder
 
-} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/aludecode.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/aludecode.sv}
+} {} {}} {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench2.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench2.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module aludecode
+-- Compiling module testbench2
 
 Top level modules:
-	aludecode
+	testbench2
 
 } {} {}}

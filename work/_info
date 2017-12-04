@@ -10,7 +10,7 @@ cModel Technology
 dC:/Users/Kaveh Pezeshki/Documents/E85_Lab_5
 valudecode
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1512028414
+Z1 !s110 1512335626
 !i10b 1
 !s100 5I08o;7bz3hBXdXSU@4zi2
 I6D_OhZg@1dA:PF3BRG@KM0
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1512028414.000000
+Z5 !s108 1512335625.000000
 !s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/aludecode.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/aludecode.sv|
 !i113 1
@@ -50,7 +50,7 @@ R4
 r1
 !s85 0
 31
-R5
+Z8 !s108 1512335626.000000
 !s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condcheck.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condcheck.sv|
 !i113 1
@@ -63,26 +63,26 @@ R1
 !s100 `I5gha6T`blYN8<ACFjj=3
 I3M82N=RM8eS61o8F0>9mh2
 R2
-Z8 !s105 condlogic_sv_unit
+Z9 !s105 condlogic_sv_unit
 S1
 R3
-Z9 w1511758462
-Z10 8C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condlogic.sv
-Z11 FC:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condlogic.sv
+Z10 w1511758462
+Z11 8C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condlogic.sv
+Z12 FC:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condlogic.sv
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-Z12 !s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condlogic.sv|
-Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condlogic.sv|
+R8
+Z13 !s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condlogic.sv|
+Z14 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/condlogic.sv|
 !i113 1
 R6
 R7
 vcontroller
 R0
-R1
+Z15 !s110 1512335625
 !i10b 1
 !s100 jPbfSM3aR_:>ZmOaj]bCS3
 I6:XmI8<kb6SEDoK_o3W<:1
@@ -108,13 +108,13 @@ vcontrollersm
 R0
 R1
 !i10b 1
-!s100 :eGCfjUG^9bC<OkPJhZF53
-IPNJAK]K8cS^;2eO4[cZXb0
+!s100 gdAh=Ji5TKF^615NbL3<80
+InH5O=_VR1gm?;i8^>@HY^1
 R2
 !s105 controllersm_sv_unit
 S1
 R3
-w1511851059
+w1512044783
 8C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controllersm.sv
 FC:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controllersm.sv
 L0 1
@@ -122,7 +122,7 @@ R4
 r1
 !s85 0
 31
-R5
+R8
 !s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controllersm.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/controllersm.sv|
 !i113 1
@@ -146,7 +146,7 @@ R4
 r1
 !s85 0
 31
-R5
+R8
 !s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/decoder.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/decoder.sv|
 !i113 1
@@ -159,20 +159,20 @@ R1
 !s100 7`ABF3PRgFdOkT^LWzdPl3
 IOW[W^>a1f?VPTK<UMRLSP0
 R2
-R8
+R9
 S1
 R3
-R9
 R10
 R11
+R12
 L0 26
 R4
 r1
 !s85 0
 31
-R5
-R12
+R8
 R13
+R14
 !i113 1
 R6
 R7
@@ -194,7 +194,7 @@ R4
 r1
 !s85 0
 31
-R5
+R8
 !s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/instrdecode.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/instrdecode.sv|
 !i113 1
@@ -202,7 +202,7 @@ R6
 R7
 vpclogic
 R0
-R1
+R15
 !i10b 1
 !s100 ^NjKo`BDz958XFGDl4?0E0
 I1UaF5CV92beVmef0SC0TA1
@@ -226,7 +226,7 @@ R6
 R7
 vtestbench
 R0
-R1
+R15
 !i10b 1
 !s100 CRm^dK`THA2A3dLmM3VPM2
 IaWQ7g1lLj``PC;JM0AY0X3
@@ -250,7 +250,7 @@ R6
 R7
 vtestbench2
 R0
-!s110 1512028415
+R1
 !i10b 1
 !s100 P;C6f?JaI@EUbf@h6;`0J1
 I7FgJ^jI9_UdR[nQ6SciUR3
@@ -266,7 +266,7 @@ R4
 r1
 !s85 0
 31
-!s108 1512028415.000000
+R8
 !s107 C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench2.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Kaveh Pezeshki/Documents/E85_Lab_10/testbench2.sv|
 !i113 1
